@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="css/normalize.css">
+    <link rel="stylesheet" type="text/css"  href="css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="Logo Animalandia">
+        </div>
+        <div class="botones">
+            <button class="b-azul"><i class="fa-solid fa-circle-plus"></i>Ingresar</button>
+            <button class="b-morado"><i class="fa-solid fa-user"></i>Registrarse</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html" class="item">Home</a>
+        <a href="equipo.html" class="item">Equipo</a>
+        <a href="servicios.html" class="item">Servicios</a>
+        <a href="agenda.html" class="item">Agenda tu cita</a>
+        <a href="contacto.html" class="item">Contacto</a>
+    </nav>
+
+    <main>
+        <h1 class="tseccion">Contactános</h1>
+        <section id="contacto-form">
+            <article class="form">
+                <form action="contacto.html" method="post">
+                    <div class="parte1">
+                        <div class="controles">
+                            <div class="labels">
+                                <label for="contacto_n" class="nombre-form" id="nombre-form">Introduce tu nombre:</label>
+                            </div>
+                            <div class="otroc">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="controles">
+                            <div class="labels">
+                                <label for="contacto_n" class="mascota-form" id="mascota-form">Tipo de mascota:</label>
+                            </div>
+                            <div class="otroc">
+                                <select name="mascota"
+                                    id="idmascota" >
+                                    <option value="0">-Seleccione opción-</option>
+                                    <option value="1">Perro</option>
+                                    <option value="2">Gato</option>
+                                    <option value="3">Loro</option>
+                                    <option value="4">Hamster</option>
+                                    <option value="5">Tortuga</option>
+                                    <option value="6">Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="controles">
+                            <div class="labels">
+                                <label for="contacto_n" class="correo-form" id="correo-form">Introduce tu correo:</label>
+                            </div>
+                            <div class="otroc">
+                                <input type="email">
+                            </div>
+                        </div>
+                        <div class="controles">
+                            <div class="labels">
+                                <label for="contacto_n" class="consulta-form" id="consulta-form">¿Cúal es tu consulta?:</label>
+                            </div>
+                            <div class="otroc">
+                                <select name="consulta" id="idconsulta" >
+                                    <option value="0">-Seleccione opción-</option>
+                                    <option value="1">Consulta general</option>
+                                    <option value="2">Consulta tratamiento específico</option>
+                                    <option value="3">Controles generales programados</option>
+                                    <option value="4">Laboratorio</option>
+                                    <option value="5">Consultas prioritarias</option>
+                                    <option value="6">Otros</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parte2">
+                        <div class="controles">
+                            <div class="labels">
+                                <label for="contacto_n" class="comentario-form" id="comentario-form">Mensaje:</label>
+                            </div>
+                            <div class="otroc">
+                                <textarea name="mensaje" cols="20" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <button class="b-morado">Registrarse</button>
+                    </div>
+                </form>
+            </article>
+
+            <article class="imagen">
+                <img src="img/vector-huella.svg" alt="Imagen de huella">
+            </article>
+        </section>
+
+        <h1 class="tseccion">Visítanos!</h1>
+        <section id="contacto">
+            <article class="mapa"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0569102255595!2d-74.10587668625374!3d4.583805996669874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98de8b2cdf01%3A0xcb94d4852598b934!2sKuepa%20-%20Restrepo!5e0!3m2!1ses!2sco!4v1646397905336!5m2!1ses!2sco" allowfullscreen="" loading="lazy"></iframe>
+            </article>
+
+            <article class="info-contacto">
+                <i class="fa-solid fa-location-dot"></i><p><strong>Dirección: </strong>Cra. 19 #20 - 21sur, Bogotá</p> 
+                <i class="fa-solid fa-phone"></i><p><strong>Teléfono: </strong>601 2120282</p> 
+                <i class="fa-solid fa-envelope"></i><p><strong>Email: </strong>correodeprueba@mail.com</p> 
+            </article>
+
+            <article class="imagen">
+                <img src="img/vector-huella.svg" alt="Imagen de huella">
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="box-footer">
+            <div class="foot">
+                <img src="img/bx-building 1.svg" alt="icono-building">
+                <h3>Sedes</h3>
+                <p>Sede Kenedy <br>
+                    Sede Fontibón <br>
+                    Sede Suba <br>
+                    Sede Centro
+                </p>
+            </div>
+            <div class="foot">
+                <img src="img/bx-building 1.svg" alt="icono-building">
+                <h3>Sedes</h3>
+                <p>Sede Kenedy <br>
+                    Sede Fontibón <br>
+                    Sede Suba <br>
+                    Sede Centro
+                </p>
+            </div>
+            <div class="foot">
+                <img src="img/bx-building 1.svg" alt="icono-building">
+                <h3>Sedes</h3>
+                <p>Sede Kenedy <br>
+                    Sede Fontibón <br>
+                    Sede Suba <br>
+                    Sede Centro
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/c887defe45.js" crossorigin="anonymous"></script>
+</html>
