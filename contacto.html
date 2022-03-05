@@ -26,6 +26,7 @@
         <a href="servicios.html" class="item">Servicios</a>
         <a href="agenda.html" class="item">Agenda tu cita</a>
         <a href="contacto.html" class="item">Contacto</a>
+        <a href="tips.html" class="item">Tips</a>
     </nav>
 
     <main>
@@ -47,8 +48,7 @@
                                 <label for="contacto_n" class="mascota-form" id="mascota-form">Tipo de mascota:</label>
                             </div>
                             <div class="otroc">
-                                <select name="mascota"
-                                    id="idmascota" >
+                                <select name="mascota" id="idmascota" >
                                     <option value="0">-Seleccione opción-</option>
                                     <option value="1">Perro</option>
                                     <option value="2">Gato</option>
@@ -61,7 +61,7 @@
                         </div>
                         <div class="controles">
                             <div class="labels">
-                                <label for="contacto_n" class="correo-form" id="correo-form">Introduce tu correo:</label>
+                                <label for="contacto_n" class="correo-form" id="correo-form">Introduce tu correo electrónico:</label>
                             </div>
                             <div class="otroc">
                                 <input type="email">
@@ -90,10 +90,12 @@
                                 <label for="contacto_n" class="comentario-form" id="comentario-form">Mensaje:</label>
                             </div>
                             <div class="otroc">
-                                <textarea name="mensaje" cols="20" rows="10"></textarea>
+                                <textarea name="mensaje" cols="30" rows="10"></textarea>
                             </div>
                         </div>
-                        <button class="b-morado">Registrarse</button>
+                        <div class="boton">
+                            <button class="b-morado">Enviar</button>
+                        </div>
                     </div>
                 </form>
             </article>
@@ -110,9 +112,15 @@
             </article>
 
             <article class="info-contacto">
-                <i class="fa-solid fa-location-dot"></i><p><strong>Dirección: </strong>Cra. 19 #20 - 21sur, Bogotá</p> 
-                <i class="fa-solid fa-phone"></i><p><strong>Teléfono: </strong>601 2120282</p> 
-                <i class="fa-solid fa-envelope"></i><p><strong>Email: </strong>correodeprueba@mail.com</p> 
+                <div class="items">
+                    <i class="fa-solid fa-location-dot"></i><p><strong>Dirección: </strong>Cra. 19 #20 - 21sur, Bogotá</p> 
+                </div>
+                <div class="items">
+                    <i class="fa-solid fa-phone"></i><p><strong>Teléfono: </strong>601 2120282</p> 
+                </div>
+                <div class="items">
+                    <i class="fa-solid fa-envelope"></i><p><strong>Email: </strong>correodeprueba@mail.com</p> 
+                </div>
             </article>
 
             <article class="imagen">
