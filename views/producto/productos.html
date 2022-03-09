@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/estilos.css">
+    <title>Productos</title>
+</head>
+<body>
+    <header>
+        <div class="d-logo">
+            <img src="../../assets/img/logo.jpg" alt="Logo">
+        </div>
+        <div class="d-sesion">
+            <img src="../../assets/img/golden.jpg" alt="Perrito">
+            <span>
+                <strong>Bienvenido, </strong><br>Usuario
+                <a href="../login.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+            </span>
+        </div>
+    </header>
+
+    <section id="d-dashboard">
+        <article class="d-menu">
+            <ul>
+                <li class="d-item"><a href="/views/usuario/usuarios.html"><i class="fa-solid fa-user"></i>Usuarios</a></li> 
+                <li class="d-item"><a href="/views/cliente/clientes.html"><i class="fa-solid fa-users"></i>Clientes</a></li>
+                <li class="d-item"><a href="productos.html"><i class="fa-solid fa-tag"></i>Productos</a></li>
+                <li class="d-item"><a href="/views/pedidos/pedidos.html"><i class="fa-solid fa-cart-shopping"></i>Pedidos</a></li>
+                <li class="d-item"><a href="../dashboard.html"><i class="fa-solid fa-chart-line"></i>Reportes</a></li>
+            </ul>
+        </article>
+        <article class="p-contenido">
+            <div class="producto">
+                <div class="tabla-intro">
+                  <img src="../../assets/img/golden.jpg" alt="Imagen de Producto">
+                  <h1>Gestión de Productos</h1>
+                  <a href="productoAdd.html" class="btn-morado">Agregar</a>
+                </div>
+                <form class="frm-busqueda">
+                    <input type="text" name="producto" placeholder="Ingresa el producto a consultar">
+                    <button class="btn-morado">Buscar</button>
+                </form>
+                <table>
+                    <tr>
+                        <th>Id Producto</th>
+                        <th>Nombre</th>
+                        <th>Características</th>
+                        <th>Precio</th>
+                        <th>Estado</th>
+                        <th colspan="2">Acciones</th>
+ 
+                    </tr>
+                    <tr>
+                        <td>xxxxx</td>
+                        <td>xxxxx</td>
+                        <td>xxxxx</td>
+                        <td>xxxxx</td>
+                        <td>xxxxx</td>
+                        <td><a href="productoEditar.html"><img src="../../assets/img/modificar.png" width="30px"></a></td>
+                        <td><button class="btn-azul">Eliminar</button></td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+    </section>
+
+</body>
+<script src="https://kit.fontawesome.com/c887defe45.js" crossorigin="anonymous"></script>
+</html>
