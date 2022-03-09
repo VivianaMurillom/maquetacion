@@ -278,8 +278,14 @@ footer {
 }
 
 .items {
+    align-items: center;
+    display: flex;
     flex-direction: row;
     width: 100%;
+}
+
+.items i{
+    margin-right: 1rem;
 }
 
 .imagen img {
@@ -350,11 +356,11 @@ footer {
 
 .banner-tips {
     align-items: center;
-    background-color: #191919;
+    border: 1px solid var(--dark-color);
     display: flex;
     justify-content: center;
     margin: 50px;
-    padding: 200px 100px;
+    padding: 70px 70px;
 }
 
 .box-b {
