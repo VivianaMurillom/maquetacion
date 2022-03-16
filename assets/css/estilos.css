@@ -41,6 +41,7 @@ header {
 }
 
 .logo img {
+    margin-bottom: 1rem;
     max-width: 270px;
     width: 100%;
 }
@@ -111,6 +112,7 @@ nav {
 }
 
 .cita {
+    text-align: center;
     padding: 2rem;
 }
 
@@ -206,6 +208,7 @@ footer {
 .profesionales {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .profesional {
@@ -239,28 +242,37 @@ footer {
 /*Diseño de Servicios*/
 
 .services {
+    align-items: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
     padding: 1rem;
-    flex-wrap: wrap;
-    justify-content:space-around;
 }
 
 .service {
-    align-items: center;
-    flex: 40%;
     display: flex;
-    margin: 0 .9rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    margin: .5rem .9rem;
 }
 
 .service img {
     margin-right: 1rem;
-    width: 180px;
+    width: 100%;
 }
-
 
 .text-service h3 {
     color: var(--dark-color);
     font-size: 24px;
+    margin-left: .5rem;
+    text-align: center;
+}
+
+.text-service p {
+    text-align: justify;
 }
 
 /*Diseño de Contacto*/
@@ -269,7 +281,7 @@ footer {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    flex-flow: row-reverse;
+    flex-flow: column-reverse;
     padding: 2rem;
 } 
 
@@ -301,6 +313,7 @@ footer {
 #contacto-form {
     align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 2rem;
 }
@@ -312,6 +325,7 @@ footer {
     display: flex;
     background-color: var(--blue-color);
     flex-flow: wrap row;
+    margin-bottom: 1rem;
     max-width: 1250px;
     min-height: 340px;
     padding: 1rem;
@@ -712,16 +726,54 @@ table td {
         max-width: 300px;
         width: 70%;
     }
+
+    .servicios {
+        align-items: center;
+    }
+
+    .servicio {
+        max-width: 500px;
+        padding: 0.5rem 1rem;
+        width: 100%;
+    }
+
+    /*Diseño de Equipo*/
+
+    .banner img {
+        width: 100%;
+    }
+
+    .profesionales {
+        align-items: center;
+    }
+
+    .profesional {
+        max-width: 500px;
+    }
+
+    /*Diseño de Servicios*/
+    .services {
+        align-items: center;
+        flex-flow: wrap column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .service {
+        width: 70%;
+    }
 }
 
 /* resolucion medias */
 @media screen and (min-width:1024px) {
+    /*Diseño de Home*/
     nav{
         flex-direction: row;
     }
 
     .cita {
         flex-basis: 60%;
+        text-align: left;
     }
 
     .promocion{
@@ -732,10 +784,40 @@ table td {
         max-width: 300px;
         width: 60%;
     }
+
+    .servicios {
+        flex-direction: row;
+    }
+
+    /*Footer*/
+    .box-footer {
+        flex-direction: row;
+    }
+
+    /*Diseño de Equipo*/
+    .profesionales {
+        flex-direction: row;
+        align-items: center;
+    }
+
+     /*Diseño de Servicios*/
+     .services {
+        flex-flow: wrap row;
+     }
+
+     .service {
+        flex: 40%;
+     }
+
+     .service img {
+         width: 70%;
+     }
+
 }
 
 /* resolucion macro */
 @media screen and (min-width:1200px) {
+    /*Diseño de Home*/
     .cita {
         flex-basis: 70%;
     }
