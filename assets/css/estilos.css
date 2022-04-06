@@ -253,12 +253,14 @@ footer {
 /*Diseño de Servicios*/
 
 .services {
-    align-items: center;
+    align-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 1rem;
     max-width: 1000px;
     padding: 1rem;
+    width: 100%;
 }
 
 .service {
@@ -891,14 +893,16 @@ table td {
 
      .services {
         flex-flow: wrap row;
+        justify-content: space-around;
+        margin-left: 80px;
      }
 
      .service {
-        flex: 40%;
+        flex: 45%;
      }
 
      .service img {
-         width: 70%;
+         width: 80%;
      }
 
     /*Diseño de Contacto*/
